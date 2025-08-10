@@ -11,3 +11,5 @@ Start Convex
 ```bash
 npx convex dev
 ```
+
+Convex auth with Clerk refrence [Link](https://docs.convex.dev/auth/clerk)

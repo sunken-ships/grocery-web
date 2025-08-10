@@ -4,15 +4,25 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
+import { Authenticated, Unauthenticated } from "convex/react";
+import { useUser } from "@clerk/nextjs";
 
-const navLinks = [
+const unauthenticatedNavLinks = [
   { href: "/", label: "Home" },
   { href: "/waitlist", label: "Waitlist" },
   { href: "/demo", label: "Demo" },
 ];
 
+const authenticatedNavLinks = [
+  { href: "/ingredients", label: "Ingredients" },
+  { href: "/recipes", label: "Recipes" },
+];
+
 export default function Nav() {
   const pathname = usePathname();
+  const { user } = useUser();
+
+  const navLinks = user ? authenticatedNavLinks : unauthenticatedNavLinks;
 
   const getLinkClasses = (href: string): string => {
     const base = " text-sm uppercase font-bold";
