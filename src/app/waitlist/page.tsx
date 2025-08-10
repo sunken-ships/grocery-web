@@ -4,6 +4,7 @@ import React, { FormEvent, useMemo, useState } from "react";
 import Nav from "@/components/Nav";
 import { useMutation, useQuery } from "convex/react";
 import { api } from "../../../convex/_generated/api";
+import GridSignup from "./GridSignup";
 
 export default function Waitlist() {
   const [email, setEmail] = useState<string>("");
@@ -43,7 +44,8 @@ export default function Waitlist() {
   return (
     <div className="flex flex-col min-h-screen ">
       <Nav />
-      <div className="flex flex-col justify-center w-sm md:w-xl mx-auto text-left p-4 space-y-2">
+      <GridSignup />
+      <div className="flex flex-col justify-center w-sm md:w-xl mx-auto text-left my-4 px-4">
         <div className="bg-black/10 px-4 py-2 rounded-lg w-min font-semibold whitespace-nowrap self-center">
           COMING SOON
         </div>
@@ -53,7 +55,7 @@ export default function Waitlist() {
         <p className="text-md md:text-lg font-light self-center">
           Eat Better, Waste Less, Spend Smarter.
         </p>
-        <form onSubmit={handleSubmit} className="flex flex-col gap-2 mt-8">
+        <form onSubmit={handleSubmit} className="flex flex-col gap-2 mt-4">
           <label htmlFor="email">
             We are working hard on Forehj. Sign up to get notified when we
             launch.
