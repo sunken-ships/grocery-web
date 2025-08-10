@@ -28,6 +28,7 @@ export default function Waitlist() {
       setStatusMessage(result.message);
       setEmail("");
     } catch (error) {
+      console.error(error);
       setStatusMessage("Something went wrong. Please try again.");
     } finally {
       setIsSubmitting(false);

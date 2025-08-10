@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Nav from "@/components/Nav";
 
 export default function Home() {
@@ -10,7 +9,7 @@ export default function Home() {
       <div className="flex flex-col justify-center w-sm md:w-xl mx-auto text-left p-4 flex-grow">
         <h1 className="font-bold md:text-3xl text-xl">Forehj (noun)</h1>
         <h2 className="text-xl md:text-2xl font-light text-red-200">
-          /'fôr-ij/
+          /fôr-ij/
         </h2>
         <ul className="space-y-4 mt-4 list-decimal list-inside text-xl md:text-2xl font-light">
           <li>
@@ -21,7 +20,7 @@ export default function Home() {
             A tool for reclaiming control over how you eat, built for real
             kitchens, real constraints, and real people.
           </li>
-          <li>It's not just software, it's food empowerment.</li>
+          <li>It&apos;s not just software, it&apos;s food empowerment.</li>
         </ul>
       </div>
     </div>
