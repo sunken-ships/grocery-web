@@ -1,0 +1,688 @@
+[
+  {
+    "name": "Beef stewing cuts",
+    "price": 2.37,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Beef striploin cuts",
+    "price": 2.57,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Beef top sirloin cuts",
+    "price": 2.95,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Beef rib cuts",
+    "price": 3.44,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Ground beef",
+    "price": 1.48,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Pork loin cuts",
+    "price": 0.82,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Pork rib cuts",
+    "price": 1.04,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Pork shoulder cuts",
+    "price": 1.03,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Whole chicken",
+    "price": 0.69,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Chicken breasts",
+    "price": 1.31,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Chicken thigh",
+    "price": 1.06,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Chicken drumsticks",
+    "price": 0.66,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Bacon",
+    "price": 1.31,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Wieners",
+    "price": 1.08,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Salmon",
+    "price": 2.64,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Shrimp",
+    "price": 2.56,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Canned salmon",
+    "price": 2.23,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Canned tuna",
+    "price": 1.04,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Meatless burgers",
+    "price": 2.89,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Milk",
+    "price": 0.39,
+    "unit": "ml",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Soy milk",
+    "price": 0.21,
+    "unit": "ml",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Nut milk",
+    "price": 0.21,
+    "unit": "ml",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Cream",
+    "price": 0.46,
+    "unit": "ml",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Butter",
+    "price": 1.31,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Margarine",
+    "price": 0.78,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Block cheese",
+    "price": 1.35,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Yogurt",
+    "price": 0.73,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Eggs",
+    "price": 0.4,
+    "unit": "whole",
+    "quantity": 1,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Apples",
+    "price": 0.61,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Oranges",
+    "price": 0.5,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Bananas",
+    "price": 0.15,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Pears",
+    "price": 0.55,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Lemons",
+    "price": 0.96,
+    "unit": "whole",
+    "quantity": 1,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Limes",
+    "price": 0.76,
+    "unit": "whole",
+    "quantity": 1,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Grapes",
+    "price": 0.85,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Cantaloupe",
+    "price": 2.82,
+    "unit": "whole",
+    "quantity": 1,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Strawberries",
+    "price": 0.64,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Avocado",
+    "price": 2.22,
+    "unit": "whole",
+    "quantity": 1,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Potatoes",
+    "price": 0.5,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Sweet potatoes",
+    "price": 0.44,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Tomatoes",
+    "price": 0.44,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Cabbage",
+    "price": 0.28,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Carrots",
+    "price": 0.31,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Onions",
+    "price": 0.58,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Celery",
+    "price": 3.33,
+    "unit": "whole",
+    "quantity": 1,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Cucumber",
+    "price": 1.23,
+    "unit": "whole",
+    "quantity": 1,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Mushrooms",
+    "price": 1.05,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Iceberg lettuce",
+    "price": 2.56,
+    "unit": "whole",
+    "quantity": 1,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Romaine lettuce",
+    "price": 3.19,
+    "unit": "whole",
+    "quantity": 1,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Broccoli",
+    "price": 2.5,
+    "unit": "whole",
+    "quantity": 1,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Peppers",
+    "price": 0.76,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Squash",
+    "price": 0.55,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Salad greens",
+    "price": 2.99,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Frozen french fried potatoes",
+    "price": 0.47,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Frozen green beans",
+    "price": 0.57,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Frozen broccoli",
+    "price": 0.74,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Frozen corn",
+    "price": 0.47,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Frozen mixed vegetables",
+    "price": 0.51,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Frozen peas",
+    "price": 0.47,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Frozen spinach",
+    "price": 0.68,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Frozen strawberries",
+    "price": 0.8,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "White bread",
+    "price": 0.46,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Flatbread and pita",
+    "price": 0.63,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Crackers and crisp breads",
+    "price": 1.35,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Cookies and sweet biscuits",
+    "price": 1.1,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Dry or fresh pasta",
+    "price": 0.64,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Brown rice",
+    "price": 0.63,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "White rice",
+    "price": 0.46,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Cereal",
+    "price": 1.04,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Wheat flour",
+    "price": 0.21,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "White sugar",
+    "price": 0.14,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Apple juice",
+    "price": 0.19,
+    "unit": "ml",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Orange juice",
+    "price": 0.3,
+    "unit": "ml",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Roasted or ground coffee",
+    "price": 2.56,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Tea",
+    "price": 0.21,
+    "unit": "whole",
+    "quantity": 1,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Ketchup",
+    "price": 0.46,
+    "unit": "ml",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Vegetable oil",
+    "price": 0.31,
+    "unit": "ml",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Canola oil",
+    "price": 0.34,
+    "unit": "ml",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Olive oil",
+    "price": 1.24,
+    "unit": "ml",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Peanut butter",
+    "price": 0.61,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Mayonnaise",
+    "price": 0.71,
+    "unit": "ml",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Canned baked beans",
+    "price": 0.5,
+    "unit": "ml",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Canned tomatoes",
+    "price": 0.27,
+    "unit": "ml",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Canned soup",
+    "price": 0.59,
+    "unit": "ml",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Canned beans and lentils",
+    "price": 0.31,
+    "unit": "ml",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Canned corn",
+    "price": 0.45,
+    "unit": "ml",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Canned peach",
+    "price": 0.6,
+    "unit": "ml",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Canned pear",
+    "price": 0.68,
+    "unit": "ml",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Dried lentils",
+    "price": 0.38,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Dry beans and legumes",
+    "price": 0.38,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Tofu",
+    "price": 0.78,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Hummus",
+    "price": 1.6,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Salsa",
+    "price": 1.19,
+    "unit": "ml",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Pasta sauce",
+    "price": 0.46,
+    "unit": "ml",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Salad dressing",
+    "price": 0.67,
+    "unit": "ml",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Almonds",
+    "price": 2.51,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Peanuts",
+    "price": 0.87,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  },
+  {
+    "name": "Sunflower seeds",
+    "price": 1.2,
+    "unit": "g",
+    "quantity": 100,
+    "isPriceEstimated": false
+  }
+]

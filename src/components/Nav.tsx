@@ -10,7 +10,7 @@ import { useUser } from "@clerk/nextjs";
 const unauthenticatedNavLinks = [
   { href: "/", label: "Home" },
   { href: "/waitlist", label: "Waitlist" },
-  { href: "/demo", label: "Demo" },
+  { href: "/ingredients", label: "Ingredients" },
 ];
 
 const authenticatedNavLinks = [

@@ -22,6 +22,8 @@ export default defineSchema({
         vectorField: "nameEmbedding",
         dimensions: 1536,
         filterFields: ["isPriceEstimated", "category"]
+    }).searchIndex("search_name", {
+        searchField: "name",
     }).index("by_name", ["name"]).index("by_category", ["category"])
 });
 
