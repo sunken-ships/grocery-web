@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, Suspense } from "react";
 import { api } from "../../../../convex/_generated/api";
 import { useAction, useQuery } from "convex/react";
 import IngredientCard from "@/components/IngredientCard";
@@ -7,7 +7,7 @@ import Nav from "@/components/Nav";
 import { useSearchParams } from "next/navigation";
 import { Doc } from "../../../../convex/_generated/dataModel";
 
-export default function IngredientsSearchPage() {
+function SearchContent() {
   const searchParams = useSearchParams();
   const query = searchParams.get("query") || "";
   const [similarIngredients, setSimilarIngredients] = useState<
@@ -29,11 +29,10 @@ export default function IngredientsSearchPage() {
         setSimilarIngredients(results);
       });
     }
-  });
+  }, [query, similarIngredientsAction]);
 
   return (
-    <div>
-      <Nav />
+    <>
       <h1>Search Results - Fuzzy</h1>
       {results && (
         <div className="m-4 px-2 md:px-8 flex flex-wrap gap-4">
@@ -58,6 +57,17 @@ export default function IngredientsSearchPage() {
           return <IngredientCard key={index} ingredient={value} />;
         })}
       </div>
+    </>
+  );
+}
+
+export default function IngredientsSearchPage() {
+  return (
+    <div>
+      <Nav />
+      <Suspense fallback={<div>Loading search results...</div>}>
+        <SearchContent />
+      </Suspense>
     </div>
   );
 }
