@@ -29,7 +29,7 @@ export default function IngredientsSearchPage() {
         setSimilarIngredients(results);
       });
     }
-  }, [query]);
+  });
 
   return (
     <div>

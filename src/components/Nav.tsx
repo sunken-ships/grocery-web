@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
-import { Authenticated, Unauthenticated } from "convex/react";
 import { useUser } from "@clerk/nextjs";
 
 const unauthenticatedNavLinks = [
