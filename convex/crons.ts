@@ -18,8 +18,7 @@ crons.interval(
             "Canned Goods",
             "Plant-Based Proteins",
             "Beverages",
-            "Snacks",
-            "Baby"
+            "Snacks"
         ]
     }
 )
@@ -30,5 +29,10 @@ crons.interval(
     internal.ingredients.embedIngredients
 )
 
+crons.interval(
+    "estimate prices",
+    { seconds: 30 },
+    internal.ingredients.estimatePrices
+)
 
 export default crons;

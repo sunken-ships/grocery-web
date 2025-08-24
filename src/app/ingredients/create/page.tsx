@@ -16,23 +16,10 @@ function IngredientInsert() {
     const formData = new FormData(e.currentTarget);
 
     const ingredientName = formData.get("ingredientName") as string;
-    const ingredientCategory = formData.get("ingredientCategory") as string;
-    const ingredientPrice = formData.get("ingredientPrice") as string;
-    const ingredientUnit = formData.get("ingredientUnit") as string;
-    const ingredientQuantity = formData.get("ingredientQuantity") as string;
 
     try {
       const result = await createIngredientMutation({
         name: ingredientName,
-        category: ingredientCategory || undefined,
-        price: ingredientPrice ? parseFloat(ingredientPrice) : undefined,
-        unit:
-          ingredientUnit && ingredientUnit !== ""
-            ? (ingredientUnit as "g" | "ml" | "whole")
-            : undefined,
-        quantity: ingredientQuantity
-          ? parseFloat(ingredientQuantity)
-          : undefined,
       });
       console.log("Created ingredient:", result);
       // Reset form using ref
@@ -49,34 +36,14 @@ function IngredientInsert() {
       onSubmit={handleSubmit}
     >
       <label htmlFor="ingredientName">Name</label>
-      <input type="text" id="ingredientName" name="ingredientName" required />
-      <label htmlFor="ingredientCategory">Category</label>
-      <input type="text" id="ingredientCategory" name="ingredientCategory" />
-      <label htmlFor="ingredientPrice">Price</label>
       <input
-        type="number"
-        id="ingredientPrice"
-        name="ingredientPrice"
-        step="0.01"
-      />
-      <label htmlFor="ingredientQuantity">Quantity</label>
-      <input
-        type="number"
-        id="ingredientQuantity"
-        name="ingredientQuantity"
-        step="0.01"
-      />
-      <label htmlFor="ingredientUnit">Unit</label>
-      <select
-        id="ingredientUnit"
-        name="ingredientUnit"
+        type="text"
+        id="ingredientName"
+        name="ingredientName"
+        required
         className="bg-white/20 text-black rounded-lg p-2"
-      >
-        <option value="">Select unit</option>
-        <option value="g">Grams (g)</option>
-        <option value="ml">Milliliters (ml)</option>
-        <option value="whole">Whole</option>
-      </select>
+      />
+
       <button
         type="submit"
         className="bg-blue-500 text-white p-2 rounded-md hover:cursor-pointer mt-2"
