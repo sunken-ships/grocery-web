@@ -10,11 +10,12 @@ const unauthenticatedNavLinks = [
   { href: "/", label: "Home" },
   { href: "/waitlist", label: "Waitlist" },
   { href: "/ingredients", label: "Ingredients" },
+  { href: "/recipes/list", label: "Recipes" },
 ];
 
 const authenticatedNavLinks = [
   { href: "/ingredients", label: "Ingredients" },
-  { href: "/recipes", label: "Recipes" },
+  { href: "/recipes/list", label: "Recipes" },
 ];
 
 export default function Nav() {

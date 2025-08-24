@@ -30,7 +30,16 @@ export default defineSchema({
         "by_category", ["category"]
     ).index(
         "by_price", ["price"]
-    )
+    ),
+
+    recipes: defineTable({
+        name: v.string(),
+        ingredients: v.array(v.object({
+            id: v.id("ingredients"),
+            amount: v.number()
+        })),
+
+    })
 });
 
 

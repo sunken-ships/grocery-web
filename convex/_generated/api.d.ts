@@ -15,6 +15,7 @@ import type {
 } from "convex/server";
 import type * as crons from "../crons.js";
 import type * as ingredients from "../ingredients.js";
+import type * as recipes from "../recipes.js";
 import type * as waitlist from "../waitlist.js";
 
 /**
@@ -28,6 +29,7 @@ import type * as waitlist from "../waitlist.js";
 declare const fullApi: ApiFromModules<{
   crons: typeof crons;
   ingredients: typeof ingredients;
+  recipes: typeof recipes;
   waitlist: typeof waitlist;
 }>;
 export declare const api: FilterApi<
