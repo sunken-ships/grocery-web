@@ -5,7 +5,7 @@ const crons = cronJobs()
 
 crons.interval(
     "category ingredients",
-    { seconds: 20 },
+    { seconds: 30 },
     internal.ingredients.categorize,
     {
         categories: [
@@ -26,8 +26,9 @@ crons.interval(
 
 crons.interval(
     "embed ingredients",
-    { seconds: 20 },
+    { seconds: 30 },
     internal.ingredients.embedIngredients
 )
+
 
 export default crons;

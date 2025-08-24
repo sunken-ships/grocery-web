@@ -93,6 +93,7 @@ export default function IngredientsCreatePage() {
   return (
     <div className="flex flex-col min-h-screen ">
       <Nav />
+      {/* TODO: check if the ingredient already exists, so once we put an ingredient in the insert field and they click submit before the ingredient is created (mutation is called) we should show existing ingredient */}
       <IngredientInsert />
       <div className="m-4 px-2 md:px-8 flex flex-wrap gap-4">
         {ingredients?.map((value, index) => {

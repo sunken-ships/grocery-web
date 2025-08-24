@@ -24,7 +24,13 @@ export default defineSchema({
         filterFields: ["isPriceEstimated", "category"]
     }).searchIndex("search_name", {
         searchField: "name",
-    }).index("by_name", ["name"]).index("by_category", ["category"])
+    }).index(
+        "by_embedding", ["nameEmbedding"]
+    ).index(
+        "by_category", ["category"]
+    ).index(
+        "by_price", ["price"]
+    )
 });
 
 
